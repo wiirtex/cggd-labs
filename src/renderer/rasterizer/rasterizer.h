@@ -64,7 +64,6 @@ namespace cg::renderer {
         if (!depth_buffer) {
             depth_buffer = in_depth_buffer;
         }
-        // TODO Lab: 1.06 Adjust `set_render_target`, and `clear_render_target` methods of `cg::renderer::rasterizer` class to consume a depth buffer
     }
 
     template<typename VB, typename RT>
@@ -166,8 +165,6 @@ namespace cg::renderer {
                 }
             }
         }
-
-        // TODO Lab: 1.06 Add `Depth test` stage to `draw` method of `cg::renderer::rasterizer`
     }
 
     template<typename VB, typename RT>
